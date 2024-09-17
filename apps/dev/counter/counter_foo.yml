@@ -22,6 +22,7 @@ spec:
     helm:
       valueFiles:
       - $values/values.yaml
+      - $values/values-dev.yaml
   - repoURL: 'https://gitlab.sikademo.com/training/counter-foo.git'
     targetRevision: main
     ref: values
