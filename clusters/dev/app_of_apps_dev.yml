@@ -19,6 +19,6 @@ spec:
       - PruneLast=true
   source:
     repoURL: https://gitlab.sikademo.com/training/argocd-apps-example.git
-    path: apps/prod
+    path: apps/dev
     directory:
       recurse: true
